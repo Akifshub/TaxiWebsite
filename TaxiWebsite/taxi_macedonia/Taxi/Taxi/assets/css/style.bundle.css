@@ -75,8 +75,8 @@
       }
       
       .dropbtn {
-        background-color: #f2f2f2;
-        color: #333;
+        background-color: #13263c;
+        color: white;
         font-size: 16px;
         border: none;
         cursor: pointer;
@@ -121,6 +121,14 @@
         width: 24px;
         height: 24px;
      }
+
+     
+      .header-scrolled a[href^="tel:"] {
+        color: black;
+      }
+
+
+     
       
       
       
