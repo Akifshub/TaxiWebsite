@@ -119,8 +119,9 @@
       }
       
       .dropdown-content a:hover {
-        background-color: #f2f2f2;
+        background-color: rgba(242, 242, 242, 0.5); /* 50% transparency */
       }
+      
 
       .flag-icon {
         width: 24px;
@@ -153,12 +154,13 @@
   height: 100%;
 }
 
-  .language-dropdown-container {
-    display: inline-block;
-  align-items: left;
-  margin-left: auto;
-  margin-right: 5px;
-  }
+.dropdown {
+  background-color: transparent;
+}
+
+.dropdown-content {
+  background-color: transparent;
+}
 
 
 
