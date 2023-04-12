@@ -85,6 +85,7 @@
         padding: 10px;
         border-radius: none;
         align-items: left;
+        width: 80px;
       }
       
       .dropdown-content {
@@ -92,12 +93,12 @@
         position: absolute;
         z-index: 1;
         background-color: #fff;
-        min-width: 160px;
+        
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         overflow-y: auto;
         max-height: 150px;
+        width: 50px;
 
-        
       }
       
       .dropdown-content a {
@@ -107,7 +108,8 @@
         display: block;
         white-space: nowrap;
       }
-      
+
+      /* language pictures */
       .dropdown-content img {
         width: 16px;
         height: 16px;
